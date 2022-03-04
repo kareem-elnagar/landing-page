@@ -46,7 +46,7 @@ h2 {
 p {
     font-size: 1.5em;
     line-height: 1.6em;
-    color: rgb(88, 10, 233);
+    color: rgb(144, 59, 3);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -92,6 +92,12 @@ section {
 }
 
 .navbar__menu .menu__link:hover {
+    background: #2d08b4;
+    color: #98a1a5ec;
+    transition: ease 0.3s all;
+}
+
+a[state=active] {
     background: #2d08b4;
     color: #98a1a5ec;
     transition: ease 0.3s all;
@@ -251,4 +257,8 @@ section.your-active-class .landing__container::after {
     to {
         transform: rotate(360deg) translate(-1em) rotate(-360deg);
     }
+}
+
+.your-active-link {
+    background-color: #510069;
 }
